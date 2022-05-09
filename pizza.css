@@ -1,0 +1,57 @@
+.header {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, fantasy;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 200;
+    text-transform: uppercase;
+    color: rgb(232, 235, 247);
+    background-color: rgb(44, 45, 36);
+    height: 4em;
+    padding-top: 48px;
+}
+.container {
+    background-color: rgb(44, 45, 36);
+}
+
+/* ./foldername (eg images)/image name - this is to add pics from computer*/
+.pizzas {
+    background-color: rgb(44, 45, 36);  
+    border-color: rgb(44, 45, 36);
+    text-align: center;
+    flex: 1;  /*makes all boxes the same size*/
+}
+.center {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    border:rgb(44, 45, 36) solid;
+    border-radius: 1em;
+    position: relative;
+        top: -65px;
+        width: 10em;
+}
+
+.pizza1, .pizza2, .pizza3, .pizza4, .pizza5 {
+    background-color: rgb(255, 236, 112);
+    border: 1px solid;  
+    border-radius: 1em;
+    border-color: rgb(44, 45, 36); 
+    margin: 2em; 
+    font-weight: 550;
+    height: 35em;
+    /*box-sizing: border-box;*/
+}
+
+.footer {
+    background-color: rgb(44, 45, 36);
+    color: rgb(232, 235, 247);
+    text-align: center;
+    margin: 1em;
+}
+
+@media (min-width: 980px) {
+    .pizzas {
+       display: flex;
+    }
+}
